@@ -9,7 +9,7 @@ or get the [CI build](http://vsixgallery.com/extension/FileDiff.6853e44f-b2ec-47
 
 ---------------------------------------
 
-The easy way to taslk to sql server database from .net app
+The easy way to talk to sql server database from .net app
 
 See the [change log](CHANGELOG.md) for changes and road map.
 
