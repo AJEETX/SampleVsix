@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Commands package="guidWrapperCommandPackage">
+    <Groups>
+      <Group guid="guidWrapperCommandPackageCmdSet" id="MyMenuGroup" priority="0x0300">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_ITEMNODE"/>
+      </Group>
+    </Groups>
+    <Buttons>
+      <Button guid="guidWrapperCommandPackageCmdSet" id="WrapperCommandId" priority="0x0100" type="Button">
+        <Parent guid="guidWrapperCommandPackageCmdSet" id="MyMenuGroup" />
+        <Icon guid="guidImages" id="bmpPic1" />
+        <Strings>
+          <ButtonText>dbHooker</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+    <Bitmaps>
+      <Bitmap guid="guidImages" href="Resources\WrapperCommand.png" usedList="bmpPic1"/>
+    </Bitmaps>
+  </Commands>
+  <Symbols>
+    <GuidSymbol name="guidWrapperCommandPackage" value="{1fa5f87c-7a76-4d06-8f7b-8db62727524e}" />
+    <GuidSymbol name="guidWrapperCommandPackageCmdSet" value="{79cda155-c169-4043-87cf-50aed4f50b97}">
+      <IDSymbol name="MyMenuGroup" value="0x1020" />
+      <IDSymbol name="WrapperCommandId" value="0x0100" />
+    </GuidSymbol>
+    <GuidSymbol name="guidImages" value="{594eee44-7756-4668-af4f-491894866f87}" >
+      <IDSymbol name="bmpPic1" value="1" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
