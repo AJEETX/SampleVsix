@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyVsix", "FileDiff\EmptyVsix.csproj", "{87B72F00-16F2-4699-97D5-2D819994B2EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyVsix", "SampleVsix\EmptyVsix.csproj", "{87B72F00-16F2-4699-97D5-2D819994B2EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3C123DB1-48D5-497B-BE3B-E09C16366A98}"
 	ProjectSection(SolutionItems) = preProject
