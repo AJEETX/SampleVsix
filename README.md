@@ -1,4 +1,4 @@
-# EntityFramework Wrapper
+# Visual Studio extension sample
 
 <!-- Replace this badge with your own-->
 [![Build status](https://ci.appveyor.com/api/projects/status/kxnw4lb014i2yvlf?svg=true)](https://ci.appveyor.com/project/AJEETX/samplevsix)
