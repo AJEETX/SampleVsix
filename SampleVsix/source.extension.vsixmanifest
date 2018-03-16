@@ -2,16 +2,15 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
         <Identity Id="FileDiff.6853e44f-b2ec-473f-bed1-e106530de5f8" Version="1.0" Language="en-US" Publisher="ajeet tiwari" />
-        <DisplayName>EntityFramework Wrapper</DisplayName>
-        <Description xml:space="preserve">The easy way to talk to sql server database from .net app</Description>
+        <DisplayName>Simple extension </DisplayName>
+        <Description xml:space="preserve">The easy way to create Visual Studio extension through VSIX template</Description>
         <GettingStartedGuide>index.html</GettingStartedGuide>
         <ReleaseNotes>index.html</ReleaseNotes>
         <Icon>favicon.ico</Icon>
         <PreviewImage>AddDatabase.png</PreviewImage>
-        <Tags>entityframework dbcontext orm database sql server .net wrapper </Tags>
+        <Tags>visual studio extensibility tools vsix gallery </Tags>
     </Metadata>
     <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />
     </Installation>
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
@@ -21,6 +20,5 @@
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
     <Assets>
-        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
     </Assets>
 </PackageManifest>
